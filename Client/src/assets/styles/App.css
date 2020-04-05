@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('./fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('./fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('./fonts/Poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'Poppins-semiBold';
+    src: url('./fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+:root{
+    --rootFontSize: 16px;
+    --btnShadow: 0 4px 8px 0px #d3d6de;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.input{
+    padding: 10px;
+    border: none;
+    border-bottom: 5px solid #EAEEF4;
+    outline: none;
+    font-family: 'Poppins-medium',sans-serif;
+}
+.input::placeholder{
+    font-family: 'Poppins-medium',sans-serif;
+}
+.button{
+    background-color: #FF9505;
+    padding: 15px;
+    font-family: 'Poppins-semiBold',sans-serif;
+    border: none;
+    border-radius: 8px;
+    font-size: var(--rootFontSize);
+    cursor: pointer;
+    outline: none;
+    box-shadow: var(--btnShadow);
+    transition: all .4s;
+}
+.button:active{
+    transform: scale(.95);
+}
+.mt-20{
+    margin-bottom: 20px;
+}

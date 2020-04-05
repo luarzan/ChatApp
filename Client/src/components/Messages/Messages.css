@@ -1,0 +1,17 @@
+.messagesScroll{
+    width: 100%;
+    height: calc(100% - 150px);
+    overflow: auto;
+    padding: 20px;
+}
+.goDownBtn{
+    background-color: rgba(255,255,255,.2);
+}
+.goDownBtn:hover{
+    background-color: rgba(255,255,255,.2);
+}
+@media only screen and (max-width: 650px){
+    .messagesScroll {
+        padding: 15px 0 0 0;
+    }
+}
